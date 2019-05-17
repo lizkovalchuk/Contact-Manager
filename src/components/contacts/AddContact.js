@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Consumer } from "../../context";
 import TextInputGroup from "../layouts/TextInputGroup";
-import uuid from "uuid";
+// import uuid from "uuid";
+import axios from 'axios';
 
 class AddContact extends Component {
   state = {
@@ -35,7 +36,7 @@ class AddContact extends Component {
     }
 
     const newContact = {
-      id: uuid(),
+      // id: uuid(),
       name,
       email,
       phone
