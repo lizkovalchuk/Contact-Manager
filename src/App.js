@@ -7,6 +7,10 @@ import Header from './components/layouts/Header';
 import About from './components/pages/About';
 import NotFound from './components/pages/NotFound';
 
+import store from './store';
+import { Provider } from 'react-redux';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
