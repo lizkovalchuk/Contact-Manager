@@ -8,12 +8,12 @@ const Header = props => {
     <nav className="nav-bar navbar-expand-sm navbar-dark bg-danger mb-3 py-0">
       <div className="container w-75">
         <div className="row justify-content-between">
-          <a href="/Contact-Manager/#/" className="navbar-brand">
+          <a href="/contact-manager" className="navbar-brand">
             {branding}
           </a>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="/" className="nav-link">
+              <Link to="/contact-manager" className="nav-link">
                 <i className="fas fa-home" /> Home
               </Link>
             </li>
