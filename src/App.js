@@ -24,9 +24,9 @@ class App extends Component {
             <div className="container">
               <Switch>
                 <Route exact path="/contact-manager" component={Contacts} />
-                <Route exact path="/contact/add" component={AddContact} />
-                <Route exact path="/contact/edit/:id" component={EditContact} />
-                <Route exact path="/about" component={About} />
+                <Route exact path="/contact-manager/contact/add" component={AddContact} />
+                <Route exact path="/contact-manager/contact/edit/:id" component={EditContact} />
+                <Route exact path="/contact-manager/about" component={About} />
                 <Route component={NotFound} />
               </Switch>
             </div>
